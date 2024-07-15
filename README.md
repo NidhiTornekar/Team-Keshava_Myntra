@@ -1,5 +1,6 @@
 # Team Keshava : Myntra HackerRamp: WeForShe 2024
-# Build for GenZ: Trend Identification and Trend-centric Recommendations
+
+### Build for GenZ: Trend Identification and Trend-centric Recommendations
 
 ### Transforming retail growth and delivering tailored product suggestions
 
@@ -43,4 +44,5 @@ To run, navigate to the `backend` folder, create a `.env` file with your MongoDB
 ```sh
 node server.js
 
+---
 In a split terminal, type npm start to start the front end code.
