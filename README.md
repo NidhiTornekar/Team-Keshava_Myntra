@@ -41,8 +41,7 @@ This is only a prototype! We have just created basic login, signup pages, with h
 
 ### Running the Project:
 To run, navigate to the `backend` folder, create a `.env` file with your MongoDB URL, install npm dependencies, then in the `backend` directory, run:
-```sh
+
 node server.js
 
----
 In a split terminal, type npm start to start the front end code.
