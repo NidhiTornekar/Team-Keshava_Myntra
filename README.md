@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Team Keshava : Myntra HackerRamp: WeForShe 2024
+# Build for GenZ: Trend Identification and Trend-centric Recommendations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Transforming retail growth and delivering tailored product suggestions
 
-## Available Scripts
+The fashion industry is continuously evolving, with GenZ at the forefront as key consumers who desire uniqueness and sustainability. The challenge is to effectively address the fashion needs of this demographic and help Myntra become their preferred fashion destination. This involves leveraging data insights, identifying the current popular trends and customer preferences among the GenZ users and recommending designs based on these specific trends.
 
-In the project directory, you can run:
+## Key Areas:
+- **Trend Identification**: Utilize data analytics and market research via social media to identify emerging fashion trends.
+- **Sustainable Practices**: Integrate eco-friendly practices in the fast fashion supply chain.
+- **Trend-centric Recommendations**: Employ AI-driven recommendation systems that analyze current fashion trends, customer preferences, and purchase history to deliver tailored product suggestions, enhancing customer engagement and conversion rates in the fast fashion segment.
 
-### `npm start`
+## Research and Data Collection:
+- **Social Media APIs**: Use social media APIs to collect posts, hashtags, images, and comments related to the trending topics. Accessing trending topics and hashtags from popular platforms like Instagram, Twitter, and Pinterest to gather data on emerging fashion trends.
+- **Sales Data**: Look at sales data from past seasons to identify what has been popular.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Identify Patterns:
+Look for common themes, colors, fabrics, and styles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Text Analysis**:
+   - Natural Language Processing (NLP)
+   - Hashtag Analysis
+   - Sentiment Analysis
 
-### `npm test`
+2. **Visual Analysis**:
+   - Computer Vision Techniques
+   - Clustering Algorithms: Can be used to find common themes.
+     
+## Trend-centric Recommendations:
+**AI-Driven Recommendations**: Deploy AI-driven recommendation systems that analyze patterns from previous steps to deliver tailored product suggestions, enhancing customer engagement and conversion rates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Feedback Collection:
+- **Customer Feedback**: Share your designs with focus groups or through surveys to gather feedback.
+- **Adjustments**: Make necessary adjustments to the designs based on the feedback received.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prototype Notice:
+This is only a prototype! We have just created basic login, signup pages, with home page, and features like sorting by price tags, searching for products, etc. using React and MongoDB. The cutting-edge feature here is the addition of a trending page, which is just shown in the UI but will be made by integrating models as described above.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Running the Project:
+To run, navigate to the `backend` folder, create a `.env` file with your MongoDB URL, install npm dependencies, then in the `backend` directory, run:
+```sh
+node server.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In a split terminal, type npm start to start the front end code.
